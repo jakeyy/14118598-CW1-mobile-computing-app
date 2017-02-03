@@ -16,9 +16,44 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberlabel2: UILabel!
     
     
+    @IBAction func button1(_ sender: UIButton) {
+    }
+        
+    
+    @IBAction func button2(_ sender: UIButton) {
+    }
     
     
+    @IBAction func button3(_ sender: UIButton) {
+    }
     
+    
+    @IBAction func button4(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func button5(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func button6(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func button7(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func button8(_ sender: UIButton) {
+    }
+   
+    
+    @IBAction func button9(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func button10(_ sender: UIButton) {
+    }
     
     
     override func viewDidLoad() {
