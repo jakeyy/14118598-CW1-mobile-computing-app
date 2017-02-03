@@ -141,89 +141,67 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="86S-0Q-9P3">
-                                <rect key="frame" x="222" y="570" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="G0G-dK-zPC" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="254" y="506" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="yvr-bf-IcB">
-                                <rect key="frame" x="30" y="577" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="xZA-cj-uPO" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="262" y="479" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="AFx-ao-Vmr">
-                                <rect key="frame" x="262" y="577" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="pft-mZ-fDN" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="195" y="534" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="cdB-sH-zPE">
-                                <rect key="frame" x="275" y="570" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="BOs-da-iyb" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="140" y="534" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ehw-Np-iyP">
-                                <rect key="frame" x="189" y="608" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="o5S-gQ-ePO" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="205" y="534" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="G0G-dK-zPC">
-                                <rect key="frame" x="199" y="618" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="vxv-RD-sPj" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="124" y="505" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="7wQ-Ot-RqV">
-                                <rect key="frame" x="140" y="633" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="GWB-HX-dYy" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="233" y="534" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="T0s-EL-2Uw">
-                                <rect key="frame" x="160" y="608" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="tnZ-JJ-EOk" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="223" y="479" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="xZA-cj-uPO">
-                                <rect key="frame" x="115" y="608" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="0xV-CD-j7e" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="233" y="499" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="pft-mZ-fDN">
-                                <rect key="frame" x="130" y="570" width="51" height="55"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZY2-jF-4Gl" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="164" y="479" width="51" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="BOs-da-iyb">
-                                <rect key="frame" x="239" y="599" width="51" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="65" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shC-IF-R5a">
+                                <rect key="frame" x="43" y="202" width="90" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="o5S-gQ-ePO">
-                                <rect key="frame" x="275" y="608" width="51" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="65" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSA-QT-XrS">
+                                <rect key="frame" x="190" y="202" width="90" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="vxv-RD-sPj">
-                                <rect key="frame" x="150" y="599" width="51" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="GWB-HX-dYy">
-                                <rect key="frame" x="163" y="570" width="51" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="tnZ-JJ-EOk">
-                                <rect key="frame" x="195" y="585" width="51" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="0xV-CD-j7e">
-                                <rect key="frame" x="195" y="565" width="51" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZY2-jF-4Gl">
-                                <rect key="frame" x="222" y="599" width="51" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="hFU-fg-e5V">
-                                <rect key="frame" x="239" y="570" width="51" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="x53-Ol-IfK">
-                                <rect key="frame" x="254" y="588" width="51" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="tpH-p0-fyx">
-                                <rect key="frame" x="184" y="633" width="51" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="numberlabel1" destination="shC-IF-R5a" id="rxF-bg-lrz"/>
+                        <outlet property="numberlabel2" destination="FSA-QT-XrS" id="9gn-Kd-722"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

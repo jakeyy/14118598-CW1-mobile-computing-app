@@ -16,6 +16,7 @@
 		235127EB1E44A8DF00DB3B3E /* calculator_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235127EA1E44A8DF00DB3B3E /* calculator_appUITests.swift */; };
 		235127F91E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */; };
 		235127FB1E44B05400DB3B3E /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 235127FA1E44B05400DB3B3E /* apple.png */; };
+		235128011E44BB8200DB3B3E /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235128001E44BB8200DB3B3E /* Apple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		235127EC1E44A8DF00DB3B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "64px-Button_Icon_Red.svg.png"; sourceTree = "<group>"; };
 		235127FA1E44B05400DB3B3E /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		235127FF1E44B83B00DB3B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/buttons.swift; sourceTree = "<group>"; };
+		235128001E44BB8200DB3B3E /* Apple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Apple.swift; path = "calculator app/calculator app/calculator app/calculator app/calculator app/Apple.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */,
 				235127FA1E44B05400DB3B3E /* apple.png */,
 				235127CA1E44A8DF00DB3B3E /* AppDelegate.swift */,
+				235127FE1E44B83B00DB3B3E /* buttons.swift */,
+				235128001E44BB8200DB3B3E /* Apple.swift */,
 				235127CC1E44A8DF00DB3B3E /* ViewController.swift */,
 				235127CE1E44A8DF00DB3B3E /* Main.storyboard */,
 				235127D11E44A8DF00DB3B3E /* Assets.xcassets */,
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				235128011E44BB8200DB3B3E /* Apple.swift in Sources */,
 				235127CD1E44A8DF00DB3B3E /* ViewController.swift in Sources */,
 				235127CB1E44A8DF00DB3B3E /* AppDelegate.swift in Sources */,
 			);
@@ -318,6 +324,14 @@
 				235127D41E44A8DF00DB3B3E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		235127FE1E44B83B00DB3B3E /* buttons.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				235127FF1E44B83B00DB3B3E /* Base */,
+			);
+			name = buttons.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
