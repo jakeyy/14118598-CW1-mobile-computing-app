@@ -14,6 +14,8 @@
 		235127D51E44A8DF00DB3B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235127D31E44A8DF00DB3B3E /* LaunchScreen.storyboard */; };
 		235127E01E44A8DF00DB3B3E /* calculator_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235127DF1E44A8DF00DB3B3E /* calculator_appTests.swift */; };
 		235127EB1E44A8DF00DB3B3E /* calculator_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235127EA1E44A8DF00DB3B3E /* calculator_appUITests.swift */; };
+		235127F91E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */; };
+		235127FB1E44B05400DB3B3E /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 235127FA1E44B05400DB3B3E /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		235127E61E44A8DF00DB3B3E /* calculator appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calculator appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		235127EA1E44A8DF00DB3B3E /* calculator_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculator_appUITests.swift; sourceTree = "<group>"; };
 		235127EC1E44A8DF00DB3B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "64px-Button_Icon_Red.svg.png"; sourceTree = "<group>"; };
+		235127FA1E44B05400DB3B3E /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		235127C91E44A8DF00DB3B3E /* calculator app */ = {
 			isa = PBXGroup;
 			children = (
+				235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */,
+				235127FA1E44B05400DB3B3E /* apple.png */,
 				235127CA1E44A8DF00DB3B3E /* AppDelegate.swift */,
 				235127CC1E44A8DF00DB3B3E /* ViewController.swift */,
 				235127CE1E44A8DF00DB3B3E /* Main.storyboard */,
@@ -234,7 +240,9 @@
 			files = (
 				235127D51E44A8DF00DB3B3E /* LaunchScreen.storyboard in Resources */,
 				235127D21E44A8DF00DB3B3E /* Assets.xcassets in Resources */,
+				235127F91E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png in Resources */,
 				235127D01E44A8DF00DB3B3E /* Main.storyboard in Resources */,
+				235127FB1E44B05400DB3B3E /* apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
