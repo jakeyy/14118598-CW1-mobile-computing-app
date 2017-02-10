@@ -17,7 +17,6 @@
 		235127F91E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */; };
 		235127FB1E44B05400DB3B3E /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 235127FA1E44B05400DB3B3E /* apple.png */; };
 		235128011E44BB8200DB3B3E /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235128001E44BB8200DB3B3E /* Apple.swift */; };
-		235128051E44E46C00DB3B3E /* 28UicNq.png in Resources */ = {isa = PBXBuildFile; fileRef = 235128041E44E46C00DB3B3E /* 28UicNq.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		235127FA1E44B05400DB3B3E /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		235127FF1E44B83B00DB3B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/buttons.swift; sourceTree = "<group>"; };
 		235128001E44BB8200DB3B3E /* Apple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Apple.swift; path = "calculator app/calculator app/calculator app/calculator app/calculator app/Apple.swift"; sourceTree = "<group>"; };
-		235128041E44E46C00DB3B3E /* 28UicNq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28UicNq.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +113,6 @@
 				235127CE1E44A8DF00DB3B3E /* Main.storyboard */,
 				235127D11E44A8DF00DB3B3E /* Assets.xcassets */,
 				235127D31E44A8DF00DB3B3E /* LaunchScreen.storyboard */,
-				235128041E44E46C00DB3B3E /* 28UicNq.png */,
 				235127D61E44A8DF00DB3B3E /* Info.plist */,
 			);
 			path = "calculator app";
@@ -246,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				235128051E44E46C00DB3B3E /* 28UicNq.png in Resources */,
 				235127D51E44A8DF00DB3B3E /* LaunchScreen.storyboard in Resources */,
 				235127D21E44A8DF00DB3B3E /* Assets.xcassets in Resources */,
 				235127F91E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png in Resources */,
@@ -529,6 +525,7 @@
 				235127F11E44A8DF00DB3B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		235127F21E44A8DF00DB3B3E /* Build configuration list for PBXNativeTarget "calculator appTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +534,7 @@
 				235127F41E44A8DF00DB3B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		235127F51E44A8DF00DB3B3E /* Build configuration list for PBXNativeTarget "calculator appUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +543,7 @@
 				235127F71E44A8DF00DB3B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
