@@ -122,14 +122,16 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func resetbutton(_ sender: Any) {
+        resetapp()
+        
+    }
    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        self.view.backgroundColor = UIColor.lightGray
 
-        
+    @IBOutlet weak var Apple1: Apple!
+   
+    
+    func resetapp(){
         Num0 = Int(arc4random_uniform(UInt32(6) - UInt32(1)) + UInt32(1))
         
         Num2 = Int(arc4random_uniform(UInt32(6) - UInt32(1)) + UInt32(1))
@@ -137,15 +139,49 @@ class ViewController: UIViewController {
         numberlabel1.text = String(Num0)
         numberlabel2.text = String(Num2)
         
+        Answer.text = ""
         
-        
-        
-       
-        
-        
+        self.Apple1.frame.origin.x = 100
+        self.Apple1.frame.origin.y = 500
+       // self.Apple2.frame.origin.x = 130
+      //  self.Apple2.frame.origin.y = 500
+      //  self.Apple3.frame.origin.x = 160
+     //   self.Apple3.frame.origin.y = 500
+    //    self.Apple4.frame.origin.x = 190
+    //    self.Apple4.frame.origin.y = 500
+   //     self.Apple5.frame.origin.x = 220
+     //   self.Apple5.frame.origin.y = 500
+      //  self.Apple6.frame.origin.x = 100
+      //  self.Apple6.frame.origin.y = 540
+    //    self.Apple7.frame.origin.x = 130
+    //    self.Apple7.frame.origin.y = 540
+    //    self.Apple8.frame.origin.x = 160
+    //    self.Apple8.frame.origin.y = 540
+     //   self.Apple9.frame.origin.x = 190
+     //   self.Apple9.frame.origin.y = 540
+    //    self.Apple10.frame.origin.x = 220
+     //   self.Apple10.frame.origin.y = 540
     }
-
+   
     
+    
+    
+    
+    
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.view.backgroundColor = UIColor.lightGray
+
+        
+       resetapp()
+        }
+
+  
     
     
     
