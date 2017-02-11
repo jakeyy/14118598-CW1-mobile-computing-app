@@ -133,6 +133,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var Apple3: Apple!
     @IBOutlet weak var Apple4: Apple!
     @IBOutlet weak var Apple5: Apple!
+    @IBOutlet weak var Apple6: Apple!
+    @IBOutlet weak var Apple7: Apple!
+    @IBOutlet weak var Apple8: Apple!
+    @IBOutlet weak var Apple9: Apple!
+    @IBOutlet weak var Apple10: Apple!
    
     
     func resetapp(){
@@ -155,16 +160,16 @@ class ViewController: UIViewController {
         self.Apple4.frame.origin.y = 500
         self.Apple5.frame.origin.x = 220
         self.Apple5.frame.origin.y = 500
-      //  self.Apple6.frame.origin.x = 100
-      //  self.Apple6.frame.origin.y = 540
-    //    self.Apple7.frame.origin.x = 130
-    //    self.Apple7.frame.origin.y = 540
-    //    self.Apple8.frame.origin.x = 160
-    //    self.Apple8.frame.origin.y = 540
-     //   self.Apple9.frame.origin.x = 190
-     //   self.Apple9.frame.origin.y = 540
-    //    self.Apple10.frame.origin.x = 220
-     //   self.Apple10.frame.origin.y = 540
+        self.Apple6.frame.origin.x = 100
+        self.Apple6.frame.origin.y = 540
+        self.Apple7.frame.origin.x = 130
+        self.Apple7.frame.origin.y = 540
+        self.Apple8.frame.origin.x = 160
+        self.Apple8.frame.origin.y = 540
+        self.Apple9.frame.origin.x = 190
+        self.Apple9.frame.origin.y = 540
+        self.Apple10.frame.origin.x = 220
+        self.Apple10.frame.origin.y = 540
     }
    
     

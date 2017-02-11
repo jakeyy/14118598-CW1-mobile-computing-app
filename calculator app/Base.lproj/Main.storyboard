@@ -237,6 +237,26 @@
                                 <rect key="frame" x="153" y="445" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="VXk-J2-w8e" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="147" y="513" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="yF5-RV-RjK" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="128" y="614" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="K3x-7l-7ca" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="231" y="610" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="CxA-Yo-0Si" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="189" y="531" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="ygU-HW-GJn" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="194" y="616" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.97882217168807983" green="0.99159866571426392" blue="0.99153107404708862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -244,10 +264,15 @@
                     <connections>
                         <outlet property="Answer" destination="QAP-LI-L3s" id="gb0-ao-XFl"/>
                         <outlet property="Apple1" destination="rZE-TT-ggW" id="4H9-P6-cdH"/>
+                        <outlet property="Apple10" destination="ygU-HW-GJn" id="Ly9-ro-kZx"/>
                         <outlet property="Apple2" destination="iUa-Le-UKb" id="PnD-UM-gSu"/>
                         <outlet property="Apple3" destination="wcB-Xc-lg4" id="EOI-VH-vjh"/>
                         <outlet property="Apple4" destination="sPQ-pk-5Ap" id="VFe-OP-yIy"/>
                         <outlet property="Apple5" destination="Gty-Wj-w4J" id="GCb-7H-ce3"/>
+                        <outlet property="Apple6" destination="VXk-J2-w8e" id="f4v-Ae-tZL"/>
+                        <outlet property="Apple7" destination="yF5-RV-RjK" id="ea9-40-F9z"/>
+                        <outlet property="Apple8" destination="K3x-7l-7ca" id="Ns0-Tj-0kZ"/>
+                        <outlet property="Apple9" destination="CxA-Yo-0Si" id="2oj-gJ-GNf"/>
                         <outlet property="numberlabel1" destination="shC-IF-R5a" id="rxF-bg-lrz"/>
                         <outlet property="numberlabel2" destination="FSA-QT-XrS" id="9gn-Kd-722"/>
                     </connections>
