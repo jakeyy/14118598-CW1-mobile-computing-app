@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232814DB1E4F950300BC855A /* Launchscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232814DA1E4F950300BC855A /* Launchscreen.swift */; };
 		235127CB1E44A8DF00DB3B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235127CA1E44A8DF00DB3B3E /* AppDelegate.swift */; };
 		235127CD1E44A8DF00DB3B3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235127CC1E44A8DF00DB3B3E /* ViewController.swift */; };
 		235127D01E44A8DF00DB3B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235127CE1E44A8DF00DB3B3E /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232814DA1E4F950300BC855A /* Launchscreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launchscreen.swift; sourceTree = "<group>"; };
 		235127C71E44A8DF00DB3B3E /* calculator app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calculator app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		235127CA1E44A8DF00DB3B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		235127CC1E44A8DF00DB3B3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				235127FA1E44B05400DB3B3E /* apple.png */,
 				235127CA1E44A8DF00DB3B3E /* AppDelegate.swift */,
 				235127FE1E44B83B00DB3B3E /* buttons.swift */,
+				232814DA1E4F950300BC855A /* Launchscreen.swift */,
 				235128001E44BB8200DB3B3E /* Apple.swift */,
 				235127CC1E44A8DF00DB3B3E /* ViewController.swift */,
 				235127CE1E44A8DF00DB3B3E /* Main.storyboard */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				235128011E44BB8200DB3B3E /* Apple.swift in Sources */,
+				232814DB1E4F950300BC855A /* Launchscreen.swift in Sources */,
 				235127CD1E44A8DF00DB3B3E /* ViewController.swift in Sources */,
 				235127CB1E44A8DF00DB3B3E /* AppDelegate.swift in Sources */,
 			);

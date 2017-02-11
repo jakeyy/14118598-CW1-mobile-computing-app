@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         if Int(1) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
     }
     
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         if Int(2) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }    }
     
     
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         if Int(3) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
         
     }
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         if Int(4) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
         
     }
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
         if Int(5) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
         
     }
@@ -76,7 +76,7 @@ class ViewController: UIViewController {
         if Int(6) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
         
     }
@@ -86,7 +86,7 @@ class ViewController: UIViewController {
         if Int(7) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
         
     }
@@ -96,7 +96,7 @@ class ViewController: UIViewController {
         if Int(8) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
         
     }
@@ -106,7 +106,7 @@ class ViewController: UIViewController {
         if Int(9) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
         
     }
@@ -116,7 +116,7 @@ class ViewController: UIViewController {
         if Int(10) == Num0 + Num2{
             Answer.text = "Well Done!"
         }else{
-            Answer.text = "Nah"
+            Answer.text = "Try again!"
         }
         
     }
@@ -149,6 +149,9 @@ class ViewController: UIViewController {
         numberlabel2.text = String(Num2)
         
         Answer.text = ""
+        
+        
+        
         
         self.Apple1.frame.origin.x = 100
         self.Apple1.frame.origin.y = 500
