@@ -61,6 +61,17 @@
                                 <rect key="frame" x="20" y="97" width="66" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0X3-5E-Wu1">
+                                <rect key="frame" x="20" y="28" width="66" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5c8-q1-rXS"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1h-4h-q7O">
                                 <rect key="frame" x="110" y="20" width="46" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -195,17 +206,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0X3-5E-Wu1">
-                                <rect key="frame" x="20" y="28" width="66" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <state key="normal" title="1">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="btn1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5c8-q1-rXS"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdL-Md-4Ft">
                                 <rect key="frame" x="20" y="670" width="85" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -218,7 +218,23 @@
                                 </connections>
                             </button>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="rZE-TT-ggW" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="433" width="55" height="55"/>
+                                <rect key="frame" x="31" y="445" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="iUa-Le-UKb" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="35" y="508" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="wcB-Xc-lg4" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="101" y="508" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="sPQ-pk-5Ap" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="106" y="445" width="55" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gty-Wj-w4J" customClass="Apple" customModule="calculator_app" customModuleProvider="target">
+                                <rect key="frame" x="153" y="445" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -228,6 +244,10 @@
                     <connections>
                         <outlet property="Answer" destination="QAP-LI-L3s" id="gb0-ao-XFl"/>
                         <outlet property="Apple1" destination="rZE-TT-ggW" id="4H9-P6-cdH"/>
+                        <outlet property="Apple2" destination="iUa-Le-UKb" id="PnD-UM-gSu"/>
+                        <outlet property="Apple3" destination="wcB-Xc-lg4" id="EOI-VH-vjh"/>
+                        <outlet property="Apple4" destination="sPQ-pk-5Ap" id="VFe-OP-yIy"/>
+                        <outlet property="Apple5" destination="Gty-Wj-w4J" id="GCb-7H-ce3"/>
                         <outlet property="numberlabel1" destination="shC-IF-R5a" id="rxF-bg-lrz"/>
                         <outlet property="numberlabel2" destination="FSA-QT-XrS" id="9gn-Kd-722"/>
                     </connections>
