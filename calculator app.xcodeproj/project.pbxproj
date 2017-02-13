@@ -18,6 +18,8 @@
 		235127F91E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */; };
 		235127FB1E44B05400DB3B3E /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 235127FA1E44B05400DB3B3E /* apple.png */; };
 		235128011E44BB8200DB3B3E /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235128001E44BB8200DB3B3E /* Apple.swift */; };
+		2377120C1E511E5A00437FFD /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2377120B1E511E5A00437FFD /* AppIcon.png */; };
+		2377120E1E5124FA00437FFD /* Launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2377120D1E5124FA00437FFD /* Launchscreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +45,7 @@
 		235127CA1E44A8DF00DB3B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		235127CC1E44A8DF00DB3B3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		235127CF1E44A8DF00DB3B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		235127D11E44A8DF00DB3B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		235127D11E44A8DF00DB3B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "calculator app/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		235127D41E44A8DF00DB3B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		235127D61E44A8DF00DB3B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		235127DB1E44A8DF00DB3B3E /* calculator appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calculator appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +58,8 @@
 		235127FA1E44B05400DB3B3E /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		235127FF1E44B83B00DB3B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/buttons.swift; sourceTree = "<group>"; };
 		235128001E44BB8200DB3B3E /* Apple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Apple.swift; path = "calculator app/calculator app/calculator app/calculator app/calculator app/Apple.swift"; sourceTree = "<group>"; };
+		2377120B1E511E5A00437FFD /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = "../../../Desktop/Calculator App/App pictures/AppIcon.png"; sourceTree = "<group>"; };
+		2377120D1E5124FA00437FFD /* Launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Launchscreen.png; path = "../../Desktop/Calculator App/App pictures/Launchscreen.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 			children = (
 				235127F81E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png */,
 				235127FA1E44B05400DB3B3E /* apple.png */,
+				2377120B1E511E5A00437FFD /* AppIcon.png */,
 				235127CA1E44A8DF00DB3B3E /* AppDelegate.swift */,
 				235127FE1E44B83B00DB3B3E /* buttons.swift */,
 				232814DA1E4F950300BC855A /* Launchscreen.swift */,
@@ -116,6 +121,7 @@
 				235127CE1E44A8DF00DB3B3E /* Main.storyboard */,
 				235127D11E44A8DF00DB3B3E /* Assets.xcassets */,
 				235127D31E44A8DF00DB3B3E /* LaunchScreen.storyboard */,
+				2377120D1E5124FA00437FFD /* Launchscreen.png */,
 				235127D61E44A8DF00DB3B3E /* Info.plist */,
 			);
 			path = "calculator app";
@@ -247,8 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2377120E1E5124FA00437FFD /* Launchscreen.png in Resources */,
 				235127D51E44A8DF00DB3B3E /* LaunchScreen.storyboard in Resources */,
 				235127D21E44A8DF00DB3B3E /* Assets.xcassets in Resources */,
+				2377120C1E511E5A00437FFD /* AppIcon.png in Resources */,
 				235127F91E44AF9300DB3B3E /* 64px-Button_Icon_Red.svg.png in Resources */,
 				235127D01E44A8DF00DB3B3E /* Main.storyboard in Resources */,
 				235127FB1E44B05400DB3B3E /* apple.png in Resources */,
