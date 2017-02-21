@@ -127,6 +127,8 @@ class ViewController: UIViewController {
         
     }
    
+   
+    
 
     @IBOutlet weak var Apple1: Apple!
     @IBOutlet weak var Apple2: Apple!
@@ -138,6 +140,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var Apple8: Apple!
     @IBOutlet weak var Apple9: Apple!
     @IBOutlet weak var Apple10: Apple!
+    
+    
    
     
     func resetapp(){
@@ -150,8 +154,8 @@ class ViewController: UIViewController {
         
         Answer.text = ""
         
-        
-        
+    
+        UIView.animate(withDuration: 0.5){
         
         self.Apple1.frame.origin.x = 100
         self.Apple1.frame.origin.y = 500
@@ -174,7 +178,7 @@ class ViewController: UIViewController {
         self.Apple10.frame.origin.x = 220
         self.Apple10.frame.origin.y = 540
     }
-   
+    }
     
     
     
@@ -185,7 +189,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
         self.view.backgroundColor = UIColor.lightGray
 

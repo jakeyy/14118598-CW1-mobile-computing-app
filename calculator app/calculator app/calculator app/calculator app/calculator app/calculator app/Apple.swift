@@ -23,10 +23,12 @@ class Apple: UIImageView {
         let dx = currentLocation!.x - startLocation!.x
         let dy = currentLocation!.y - startLocation!.y
         
-        self.center = CGPoint(x: self.center.x+dx, y: self.center.y+dy)
-    }
+        self.center = CGPoint(x: self.center.x+dx, y: self.center.y+dy)}
+
 }
 
-        
+
+
+
 
 
