@@ -23,6 +23,7 @@
 		23731F291E5C5807006B8B40 /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235128001E44BB8200DB3B3E /* Apple.swift */; };
 		2377120C1E511E5A00437FFD /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2377120B1E511E5A00437FFD /* AppIcon.png */; };
 		2377120E1E5124FA00437FFD /* Launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 2377120D1E5124FA00437FFD /* Launchscreen.png */; };
+		23B322971E6ED6F90005B3FC /* correct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B322961E6ED6F90005B3FC /* correct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		23731F241E520ADB006B8B40 /* correct.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = correct.storyboard; path = "calculator app/correct.storyboard"; sourceTree = SOURCE_ROOT; };
 		2377120B1E511E5A00437FFD /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppIcon.png; path = "../../../Desktop/Calculator App/App pictures/AppIcon.png"; sourceTree = "<group>"; };
 		2377120D1E5124FA00437FFD /* Launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Launchscreen.png; path = "../../Desktop/Calculator App/App pictures/Launchscreen.png"; sourceTree = SOURCE_ROOT; };
+		23B322961E6ED6F90005B3FC /* correct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = correct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				232814DA1E4F950300BC855A /* Launchscreen.swift */,
 				235128001E44BB8200DB3B3E /* Apple.swift */,
 				235127CC1E44A8DF00DB3B3E /* ViewController.swift */,
+				23B322961E6ED6F90005B3FC /* correct.swift */,
 				235127CE1E44A8DF00DB3B3E /* Main.storyboard */,
 				235127D11E44A8DF00DB3B3E /* Assets.xcassets */,
 				235127D31E44A8DF00DB3B3E /* LaunchScreen.storyboard */,
@@ -292,6 +295,7 @@
 			files = (
 				235128011E44BB8200DB3B3E /* Apple.swift in Sources */,
 				232814DB1E4F950300BC855A /* Launchscreen.swift in Sources */,
+				23B322971E6ED6F90005B3FC /* correct.swift in Sources */,
 				235127CD1E44A8DF00DB3B3E /* ViewController.swift in Sources */,
 				235127CB1E44A8DF00DB3B3E /* AppDelegate.swift in Sources */,
 			);

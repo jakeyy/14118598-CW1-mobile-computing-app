@@ -29,7 +29,8 @@ class ViewController: UIViewController {
     @IBAction func btn1(_ sender: Any) {
         if Int(1) == Num0 + Num2{
             Answer.text = "Well Done!"
-        }else{
+            correct()
+       }else{
             Answer.text = "Try again!"
         }
     }
@@ -37,6 +38,7 @@ class ViewController: UIViewController {
     @IBAction func button2(_ sender: UIButton) {
         if Int(2) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
         }else{
             Answer.text = "Try again!"
         }    }
@@ -45,6 +47,8 @@ class ViewController: UIViewController {
     @IBAction func button3(_ sender: UIButton) {
         if Int(3) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
+            
         }else{
             Answer.text = "Try again!"
         }
@@ -55,6 +59,7 @@ class ViewController: UIViewController {
     @IBAction func button4(_ sender: UIButton) {
         if Int(4) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
         }else{
             Answer.text = "Try again!"
         }
@@ -65,6 +70,7 @@ class ViewController: UIViewController {
     @IBAction func button5(_ sender: UIButton) {
         if Int(5) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
         }else{
             Answer.text = "Try again!"
         }
@@ -75,6 +81,7 @@ class ViewController: UIViewController {
     @IBAction func button6(_ sender: UIButton) {
         if Int(6) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
         }else{
             Answer.text = "Try again!"
         }
@@ -85,6 +92,7 @@ class ViewController: UIViewController {
     @IBAction func button7(_ sender: UIButton) {
         if Int(7) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
         }else{
             Answer.text = "Try again!"
         }
@@ -95,6 +103,7 @@ class ViewController: UIViewController {
     @IBAction func button8(_ sender: UIButton) {
         if Int(8) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
         }else{
             Answer.text = "Try again!"
         }
@@ -105,6 +114,7 @@ class ViewController: UIViewController {
     @IBAction func button9(_ sender: UIButton) {
         if Int(9) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
         }else{
             Answer.text = "Try again!"
         }
@@ -115,6 +125,7 @@ class ViewController: UIViewController {
     @IBAction func button10(_ sender: UIButton) {
         if Int(10) == Num0 + Num2{
             Answer.text = "Well Done!"
+            correct()
         }else{
             Answer.text = "Try again!"
         }
@@ -142,7 +153,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var Apple10: Apple!
     
     
-   
+    func correct(){
+        let storyboard = UIStoryboard(name: "correct", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "correct") as UIViewController
+        present(controller, animated: true, completion: nil)
+        resetapp()
+    }
     
     func resetapp(){
         Num0 = Int(arc4random_uniform(UInt32(6) - UInt32(1)) + UInt32(1))
